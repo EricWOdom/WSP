@@ -209,6 +209,10 @@ table {
     width: 960px;
     display: block;
     margin: 0 auto;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 5px 20px;
 }
 header {
     background: url(images/logo.png) no-repeat 0 7px;
