@@ -275,6 +275,7 @@ li {
 }
 #bodyContent li {
     display: block;
+    line-height: 1.7em;
 }
 #bodyContent li:before {
     content: url(images/arrow.png);
@@ -288,6 +289,14 @@ li {
 .smallLink {
     font-weight: 300;
     font-size: .9em;
+}
+.smallCaps {
+    font-size: .5em;
+    text-transform: uppercase;
+    padding: 0 8px;
+    color: #999;
+    top: -2px;
+    position: relative;
 }
 table {
     border: 1px solid #ccc;
