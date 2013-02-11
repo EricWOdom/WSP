@@ -34,7 +34,7 @@
         var h = 0;
         h=$(window).height();
         $("#container").height(h);
-        $(window).change(function() {
+        $(window).resize(function() {
             alert("Test");
             h=$(window).height();
             $("#container").height(h); 
