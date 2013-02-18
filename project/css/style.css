@@ -3,3 +3,7 @@
 body {
 	font: 400 1em/1.5em 'Open Sans', Helvetica, Verdana, Sans-serif;
 }
+
+img.100 {
+	width: 100%
+}
