@@ -26,7 +26,8 @@ img.100 {
 	border-radius:5px;
 }
 
-#submit button[type="submit"] {
+#sign-up-form button[type="submit"],
+#contact-form button[type="submit"] {
 	cursor:pointer;
 	width:100%;
 	border:none;
