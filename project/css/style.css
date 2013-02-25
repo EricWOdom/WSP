@@ -15,7 +15,7 @@ body {
 }
 
 header {
-	background: #3c5360; url('../images/header-bg-pattern.png') repeat top left;
+	background: #3c5360 url('../images/header-bg-pattern.png') repeat top left;
 }
 
 .logo {
