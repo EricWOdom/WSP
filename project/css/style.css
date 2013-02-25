@@ -14,6 +14,14 @@ body {
 	border-right: 1px solid #bdd4de;
 }
 
+header {
+	background: #3c5360; url('../images/header-bg-pattern.png') repeat top left;
+}
+
+.logo {
+	padding: 10px 0 10px 20px;
+}
+
 img.100 {
 	width: 100%
 }
