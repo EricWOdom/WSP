@@ -7,6 +7,10 @@ body {
 	font: 400 1em/1.5em 'Open Sans', Helvetica, Verdana, Sans-serif;
 }
 
+img {
+	max-width: 100%;
+}
+
 #contentContainer {
 	width: 100%;
 	background: #ffffff;
@@ -18,8 +22,12 @@ header {
 	background: #3c5360 url('../images/header-bg-pattern.png') repeat top left;
 }
 
-.logo {
+#logo {
+	display: inline-block;
+	float: left;
 	padding: 10px 0 10px 20px;
+	width: 396px;
+	height: 51px;
 }
 
 img.100 {
