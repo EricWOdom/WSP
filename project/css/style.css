@@ -3,7 +3,7 @@
 body {
 	margin: 0 auto;
 	max-width: 960px;
-	background: #f5f5f5 ('url:..images/bg-pattern.png') repeat left top;
+	background: #f5f5f5 url(':..images/bg-pattern.png') repeat left top;
 	font: 400 1em/1.5em 'Open Sans', Helvetica, Verdana, Sans-serif;
 }
 
