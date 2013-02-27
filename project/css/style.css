@@ -28,6 +28,14 @@ img {
 	background: url('../images/menu-button.png');
 }
 
+.menu-button .touch-button .navicon:hover {
+	background-position-y: -22px;
+}
+
+.menu-button .touch-button .navicon:active {
+	background-position-y: -44px;
+}
+
 header {
 	background: #3c5360 url('../images/header-bg-pattern.png') repeat top left;
 	width: 100%;
