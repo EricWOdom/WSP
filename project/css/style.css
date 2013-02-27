@@ -102,6 +102,7 @@ nav {
 #contentContainer {
 	max-width: 940px;
 	margin: 0 auto;
+	padding: 20px;
 	background: #ffffff;
 	border-left: 1px solid #bdd4de;
 	border-right: 1px solid #bdd4de;
