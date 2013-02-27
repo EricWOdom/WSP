@@ -49,6 +49,8 @@ header {
 	color: #ffffff;
 	background: #ff9800;
 	text-decoration: none;
+	border-left: none;
+	border-bottom: none;
 }
 
 img.100 {
@@ -101,11 +103,6 @@ img.100 {
     color:#888;
 }
 
-@media (min-width: 800px)
-.flexnav li a {
-border-left: none;
-border-bottom: none;
-}
 
 /****************************/
 /* Nexus 7                  */
