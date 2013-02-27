@@ -17,8 +17,14 @@ img {
 	text-shadow: 0 1px 0 #000;
 }
 
-.navicon {
-	background: url('../images/menu-button.png');
+.menu-button .touch-button .navicon {
+	font-size: 16px;
+	position: relative;
+	top: 12px;
+	color: #fff;
+	display: block;
+	width: 30px;
+	height: 22px;
 }
 
 header {
