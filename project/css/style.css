@@ -10,12 +10,15 @@ img {
 	max-width: 100%;
 }
 
-#contentContainer {
-	max-width: 960px;
-	margin: 0 auto;
-	background: #ffffff;
-	border-left: 1px solid #bdd4de;
-	border-right: 1px solid #bdd4de;
+.menu-button {
+	padding: 10px 1em;
+	background: #ff9800;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+
+.navicon {
+	background: url('../images/menu-button.png');
 }
 
 header {
@@ -79,6 +82,14 @@ nav {
 
 .flexnav li a:active {
 	background: #f79300;
+}
+
+#contentContainer {
+	max-width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	border-left: 1px solid #bdd4de;
+	border-right: 1px solid #bdd4de;
 }
 
 img.100 {
