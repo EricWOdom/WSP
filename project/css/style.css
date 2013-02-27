@@ -50,7 +50,7 @@ header {
 #logo {
 	display: inline-block;
 	float: left;
-	padding: 10px 0 10px 20px;
+	padding: 10px;
 	width: 396px;
 	height: 51px;
 }
@@ -100,7 +100,7 @@ nav {
 }
 
 #contentContainer {
-	max-width: 960px;
+	max-width: 940px;
 	margin: 0 auto;
 	background: #ffffff;
 	border-left: 1px solid #bdd4de;
