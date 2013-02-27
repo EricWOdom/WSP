@@ -25,6 +25,7 @@ img {
 	display: block;
 	width: 30px;
 	height: 22px;
+	background: url('../images/menu-button.png');
 }
 
 header {
