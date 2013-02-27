@@ -51,6 +51,15 @@ header {
 	text-decoration: none;
 	border-left: none;
 	border-bottom: none;
+	padding: 5px 1em;
+}
+
+.flexnav li a:hover {
+	background: #ffa300;
+}
+
+.flexnav li a:active {
+	background: #f79300;
 }
 
 img.100 {
