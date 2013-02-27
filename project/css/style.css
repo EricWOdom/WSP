@@ -12,6 +12,7 @@ img {
 
 #contentContainer {
 	max-width: 960px;
+	margin: 0 auto;
 	background: #ffffff;
 	border-left: 1px solid #bdd4de;
 	border-right: 1px solid #bdd4de;
@@ -33,6 +34,16 @@ header {
 	padding: 10px 0 10px 20px;
 	width: 396px;
 	height: 51px;
+}
+
+nav {
+	background: #ff9800;
+	width: 100%;
+}
+
+.navContainer {
+	max-width: 960px;
+	margin: 0 auto;	
 }
 
 .flexnav {
