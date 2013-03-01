@@ -44,20 +44,20 @@ img {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: .8em;
-	padding: 5px 1em;
+	padding: 8px 1em;
 	background: #ff9800;
 	text-shadow: 0 1px 0 #000;
 }
 
 .menu-button .touch-button {
 	width: 30px;
-	height: 35px;
+	height: 40px;
 	right: 1%;
 }
 
 .menu-button .touch-button .navicon {
 	position: relative;
-	top: 7px;
+	top: 10px;
 	color: #fff;
 	display: block;
 	width: 30px;
@@ -87,9 +87,8 @@ header {
 #logo {
 	display: inline-block;
 	float: left;
-	padding: 10px;
-	width: 396px;
-	height: 51px;
+	padding: 1%;
+	width: 40%;
 }
 
 article {
@@ -99,7 +98,7 @@ article {
 nav {
 	background: #ff9800;
 	width: 100%;
-	height: 34px;
+	height: 40px;
 	position: relative;
 }
 
@@ -228,13 +227,15 @@ img.100 {
 footer {
 	background: #bdd4de url('../images/bg-footer-pattern.png') repeat top left;
 	width: 100%;
-	height: 72px;
+	border-top: 2px solid #fff;
+	box-shadow: 0 -1px 0 #bdd4de;
 }
 
 #footerContainer {
 	max-width: 980px;
 	margin: 0 auto;
 	color: #3f5765;
+	padding: 20px 1%;
 }
 
 #bbbAccreditation {
