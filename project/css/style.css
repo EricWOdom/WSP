@@ -233,11 +233,11 @@ img.100 {
 }
 
 .moreInfo:hover {
-	background: #ffb342;
+	background: #fda41e;
 }
 
 .moreInfo:active {
-	background: #ee8e00;
+	background: #ff9800;
 	text-shadow: none;
 	box-shadow: 0 -1px 0 #000;
 }
