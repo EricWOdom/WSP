@@ -81,10 +81,10 @@
     <script type="text/javascript">
     $(document).ready(function(){
         var h = 0;
-        h=$((window).height()-93);
+        h=$(window).height();
         $("body").height(h);
         $(window).resize(function() {
-            h=$((window).height()-93);
+            h=$(window).height();
             $("body").height(h); 
         });
     });
