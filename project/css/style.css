@@ -91,10 +91,6 @@ header {
 	width: 40%;
 }
 
-article {
-	margin-bottom: 20px;
-}
-
 nav {
 	background: #ff9800;
 	width: 100%;
@@ -173,6 +169,17 @@ nav {
 
 .homeCTA2 {
 	margin: 0 25px;
+}
+
+#product {
+	width: 448px;
+	float: left;
+	background: #a1a1a1;
+	margin-right: 2.25%;
+}
+
+#productRight {
+	margin-right: 0;
 }
 
 img.100 {
