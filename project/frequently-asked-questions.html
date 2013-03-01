@@ -98,10 +98,10 @@
     $(document).ready(function(){
         var h = 0;
         h=$(window).height();
-        $("#contentContainer").height(h);
+        $("#contentContainer").height(h-264);
         $(window).resize(function() {
             h=$(window).height();
-            $("#contentContainer").height(h); 
+            $("#contentContainer").height(h-264);
         });
     });
     </script>
