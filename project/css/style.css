@@ -361,7 +361,8 @@ img.100 {
     background-repeat: no-repeat;
 }  
 
-#contactForm #submit-button {  
+#contactForm #submit-button,
+#sign-up-button {  
     color: #ffffff;
     display: inline-block;
     cursor: pointer;
@@ -381,7 +382,8 @@ img.100 {
     background-image:         linear-gradient(top, #f68e1e 30%,#f07918 75%); 
 }  
 
-#contactForm #submit-button:hover {  
+#contactForm #submit-button:hover,
+#sign-up-button {  
     background: #ff9c33;
     background-image: -webkit-linear-gradient(top, #ff9c33 30%,#f68e1e 75%);
     background-image:    -moz-linear-gradient(top, #ff9c33 30%,#f68e1e 75%);
@@ -390,7 +392,8 @@ img.100 {
     background-image:         linear-gradient(top, #ff9c33 30%,#f68e1e 75%); 
 }  
 
-#contactForm #submit-button:active {  
+#contactForm #submit-button:active,
+#sign-up-button {  
     background: #f68e1e;
     background-image: -webkit-linear-gradient(top, #f68e1e 20%,#f07918 100%);
     background-image:    -moz-linear-gradient(top, #f68e1e 20%,#f07918 100%);

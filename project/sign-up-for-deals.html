@@ -38,20 +38,19 @@
                     <h2>Specials Right in Your Inbox</h2>
                     <p>We're happy to announce that with the launch of our new website, we've also added a great new way for you to get notified when we have deals or specials.</p>
                     <p>Here's your chance to get notified of our specials before they're printed in the newspapers and tabloids. Simply add your information to the form below, click the submit button, and you're on the list.</p>
-                    <div>
-                        <label>
-                            <span>Name: (required)</span>
-                            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                            <span>Email: (required)</span>
-                            <input placeholder="Your email address" type="email" tabindex="2" required>
-                        </label>
-                    </div>
-                    <div>
-                        <button name="submit" type="submit" id="submit">Sign Up</button>
+                    <div id="contactForm">
+                    <h1>Contact Us</h1>
+                    <p>Thanks for taking the time to contact us. We completely understand if talking on the phone isn't your thing, so use the nifty contact form below to send us a message. We check our emails daily, and we'll be sure to get back to you within 24 hours. Thanks again for contacting us, and please feel free to come and see our warehouse in person!</p>
+                    <div id="contactFormContainer">
+                        <form method="post" action="">  
+                            <label for="name">Name:</label>  
+                                <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" class="required" autofocus="autofocus" />  
+                            <label for="email">Email Address:</label>  
+                                <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" class="required" />    
+                            <span id="loading"></span>
+                            <p id="requiredDescription">* Indicates a required field</p>
+                            <input type="submit" value="Sign Up" id="sign-up-button" />  
+                        </form>
                     </div>
                     <p class="note">Note: We promise never to share any of your information, and just in case you're worried about it, feel free to take a look over our <a href="#">privacy policy</a>. In fact, we encourage you to. Thanks for signing up!</p>
                 </form>
