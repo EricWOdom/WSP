@@ -92,6 +92,10 @@ header {
 	height: 51px;
 }
 
+article {
+	margin-bottom: 20px;
+}
+
 nav {
 	background: #ff9800;
 	width: 100%;
@@ -157,6 +161,10 @@ nav {
 
 #furnitureBrands img {
 	margin-right: 25px;
+}
+
+#furnitureBrands img:first-child {
+	margin-left: 14px;
 }
 
 #furnitureBrands img:last-child {
