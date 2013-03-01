@@ -90,6 +90,7 @@ nav {
 	border-left: none;
 	border-bottom: none;
 	padding: 5px 1em;
+	background: #ff9800;
 }
 
 .flexnav li a:hover {
