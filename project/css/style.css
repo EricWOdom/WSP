@@ -147,6 +147,18 @@ nav {
 	border-right: 1px solid #bdd4de;
 }
 
+#callToActions {
+	margin: 15px 0;
+}
+
+#furnitureBrands img {
+	margin-right: 10px;
+}
+
+.homeCTA2 {
+	margin: 0 25px;
+}
+
 img.100 {
 	width: 100%
 }
