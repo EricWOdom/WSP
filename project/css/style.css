@@ -19,9 +19,15 @@ img {
 	text-shadow: 0 1px 0 #000;
 }
 
+.menu-button .touch-button {
+	width: 30px;
+	height: 35px;
+	right: 1%;
+}
+
 .menu-button .touch-button .navicon {
 	position: relative;
-	top: 12px;
+	top: 7px;
 	color: #fff;
 	display: block;
 	width: 30px;
