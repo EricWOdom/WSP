@@ -29,6 +29,8 @@ body {
 
 img {
 	max-width: 100%;
+	height: auto!important;
+	width: auto\9; /* ie8 */
 }
 
 h1 {
@@ -154,6 +156,14 @@ nav {
 	background: #ffffff;
 	border-left: 1px solid #bdd4de;
 	border-right: 1px solid #bdd4de;
+}
+
+#contentContainer p {
+	margin-bottom: 20px;
+}
+
+#contentContainer p:last-child {
+	margin-bottom: 0;
 }
 
 #callToActions {
