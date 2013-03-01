@@ -151,8 +151,16 @@ nav {
 	margin: 15px 0;
 }
 
+#furnitureBrands {
+	margin: 0 auto;
+}
+
 #furnitureBrands img {
-	margin-right: 10px;
+	margin-right: 25px;
+}
+
+#furnitureBrands img:last-child {
+	margin-right: 0;
 }
 
 .homeCTA2 {
