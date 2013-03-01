@@ -94,5 +94,16 @@
             'animationSpeed': 150
         });
     </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        var h = 0;
+        h=$(window).height();
+        $("#contentContainer").height(h);
+        $(window).resize(function() {
+            h=$(window).height();
+            $("#contentContainer").height(h); 
+        });
+    });
+    </script>
     </body>
 </html>
