@@ -212,7 +212,8 @@ nav {
 	float: left;
 }
 
-#productDescription h2 {
+#product h2,
+#productRight h2 {
 	font-size: 1.1em;
 	font-family: 'Verb Regular', 'Open Sans', Helvetica, Arial, Sans-serif;
 }
