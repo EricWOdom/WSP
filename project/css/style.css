@@ -1,14 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600,700);
-@font-face {
-    font-family: 'Verb Ultra';
-    src: url('type/VerbUltra-webfont.eot');
-    src: url('type/VerbUltra-webfont.eot?#iefix') format('embedded-opentype'),
-         url('type/VerbUltra-webfont.woff') format('woff'),
-         url('type/VerbUltra-webfont.ttf') format('truetype'),
-         url('type/VerbUltra-webfont.svg#verbultra') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @font-face {
     font-family: 'Verb Bold';
     src: url('type/VerbBold-webfont.eot');
@@ -38,6 +29,24 @@ body {
 
 img {
 	max-width: 100%;
+}
+
+h1 {
+	font: 400 1.5em 'Verb Bold', 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+	color: #ff9800;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font: 400 1.3em 'Verb Bold', 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+	color: #ff9800;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font: 400 1.15em 'Verb Bold', 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+	color: #ff9800;
+	margin-bottom: 10px;
 }
 
 .menu-button {
