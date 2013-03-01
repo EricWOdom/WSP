@@ -234,6 +234,17 @@ nav {
 	line-height: 1.5em;
 }
 
+dt {
+	font-weight: 600;
+	color: #ff9800;
+	font-size: 1.1em;
+	margin: 10px 0;
+}
+
+dt:first-child {
+	margin-top: 0;
+}
+
 img.100 {
 	width: 100%
 }
