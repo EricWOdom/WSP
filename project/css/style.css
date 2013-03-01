@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600,700);
 @font-face {
-    font-family: 'verbultra';
+    font-family: 'Verb Ultra';
     src: url('type/VerbUltra-webfont.eot');
     src: url('type/VerbUltra-webfont.eot?#iefix') format('embedded-opentype'),
          url('type/VerbUltra-webfont.woff') format('woff'),
@@ -10,7 +10,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'verb_regularbold';
+    font-family: 'Verb Bold';
     src: url('type/VerbBold-webfont.eot');
     src: url('type/VerbBold-webfont.eot?#iefix') format('embedded-opentype'),
          url('type/VerbBold-webfont.woff') format('woff'),
@@ -20,7 +20,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'verb_regularregular';
+    font-family: 'Verb Regular';
     src: url('type/VerbRegular-webfont.eot');
     src: url('type/VerbRegular-webfont.eot?#iefix') format('embedded-opentype'),
          url('type/VerbRegular-webfont.woff') format('woff'),
@@ -113,7 +113,7 @@ nav {
 	text-transform: uppercase;
 	font-size: 1em;
 	text-shadow: 0 1px 0 #000;
-	font-family: verb_regularbold, 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Verb Regular', 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .flexnav li {
