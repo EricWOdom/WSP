@@ -74,7 +74,7 @@ img {
 }
 
 header {
-	background: #3c5360 url('../images/header-bg-pattern.png') repeat top left;
+	background: #3c5360 url('../images/bg-header-pattern.png') repeat top left;
 	width: 100%;
 	height: 72px;
 }
@@ -223,6 +223,18 @@ img.100 {
 }
 :-ms-input-placeholder {
     color:#888;
+}
+
+footer {
+	background: #bdd4de url('../images/bg-footer-pattern.png') repeat top left;
+	width: 100%;
+	height: 72px;
+}
+
+#footerContainer {
+	max-width: 980px;
+	margin: 0 auto;
+	color: #3f5765;
 }
 
 #bbbAccreditation {
