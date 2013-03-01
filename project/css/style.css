@@ -185,12 +185,13 @@ nav {
 	width: 49%;
 	float: left;
 	margin-right: 2%;
-	margin-bottom: 20px;
 	display: inline-block;
 }
 
 #productRight {
 	margin-right: 0;
+	display: inline-block;
+	width: 49%;
 }
 
 #product:last-child,
