@@ -37,33 +37,20 @@
                 <form id="contact-form" action="/" method="post">
                     <h1>Contact Us</h1>
                     <p>Thanks for taking the time to contact us. We completely understand if talking on the phone isn't your thing, so use the nifty contact form below to send us a message. We check our emails daily, and we'll be sure to get back to you within 24 hours. Thanks again for contacting us, and please feel free to come and see our warehouse in person!</p>
-                    <div>
-                        <label>
-                            <span>Name: (required)</span>
-                            <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                            <span>Email: (required)</span>
-                            <input placeholder="Please enter your email address" type="email" tabindex="2" required>
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                            <span>Telephone: (required)</span>
-                            <input placeholder="Please enter your number" type="tel" tabindex="3" required>
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                            <span>Message: (required)</span>
-                            <textarea placeholder="Include all the details you can" tabindex="4" required></textarea>
-                        </label>
-                    </div>
-                    <div>
-                        <button name="submit" type="submit" id="submit">Send Email</button>
-                    </div>
+                    <form method="post" action="">  
+                        <label for="name">Name:</label>  
+                            <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" class="required" autofocus="autofocus" />  
+                        <label for="email">Email Address:</label>  
+                            <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" class="required" />  
+                        <label for="telephone">Telephone:</label>  
+                            <input type="tel" id="telephone" name="telephone" value="" />
+                        <label for="message">Message:</label>  
+                            <textarea id="message" name="message" placeholder="Your message goes here. (Message must be at least 20 characters long.)" data-minlength="20"></textarea>  
+                        <span id="loading"></span>
+                        <p id="requiredDescription">* Indicates a required field</p> 
+                        <p id="privacyPolicy"><a href="" target="_blank">Privacy Policy</a></p>
+                        <input type="submit" value="Submit" id="submit-button" />  
+                    </form>
                     <p class="note">Note: We promise never to share any of your information, and just in case you're worried about it, feel free to take a look over our <a href="#">privacy policy</a>. In fact, we encourage you to. Thanks for contacting us!</p>
                 </form>
             </article>
