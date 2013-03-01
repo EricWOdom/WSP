@@ -82,11 +82,9 @@
     $(document).ready(function(){
         var h = 0;
         h=$(window).height();
-        $("body").height(h);
         $("#contentContainer").height(h-264);
         $(window).resize(function() {
             h=$(window).height();
-            $("body").height(h); 
             $("#contentContainer").height(h-264);
         });
     });
