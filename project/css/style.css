@@ -181,16 +181,19 @@ nav {
 }
 
 #product {
-	width: 49%;
 	float: left;
 	margin-right: 2%;
-	display: inline-block;
 }
 
 #productRight {
 	margin-right: 0;
+}
+
+#product,
+#productRight {
 	display: inline-block;
 	width: 49%;
+	margin-bottom: 20px;
 }
 
 #product:last-child,
