@@ -448,32 +448,12 @@ img.100 {
 #requiredDescription {  
     font-size: .75em;
     font-style: italic;
-    margin: -14px 3% 0 0 !imporant;
+    margin: -14px 3% 0 0 !important;
     display: block;
     position: relative;
     float: right;
     color: #8b8b8b;
 }  
-
-#privacyPolicy {
-    display: inline-block;
-    margin-left: 262px;
-    margin-top: 9px;
-}
-
-#privacyPolicy a {
-    font-size: .75em;
-    color: #f68e1e;
-    text-decoration: none;
-}
-
-#privacyPolicy a:hover {
-    color: #ff9c33;
-}
-
-#privacyPolicy a:active {
-    color: #f07918;
-}
 
 /* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */  
 input:required, textarea:required {  
