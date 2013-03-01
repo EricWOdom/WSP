@@ -190,8 +190,19 @@ nav {
 	margin-right: 0;
 }
 
+#productIMG {
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+}
+
 #productDescription {
-	width: 40%;
+	width: 45%;
+	float: left;
+}
+
+#productDescription h2 {
+	font-family: 'Verb Regular', 'Open Sans', Helvetica, Arial, Sans-serif;
 }
 
 img.100 {
