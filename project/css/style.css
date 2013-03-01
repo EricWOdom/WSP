@@ -110,6 +110,7 @@ nav {
 .flexnav {
 	margin: 0 auto;
 	width: 100%;
+	margin-top: -5px;
 	display: inline-block;
 	background: #ff9800;
 	color: #fff;
@@ -129,7 +130,7 @@ nav {
 	text-decoration: none;
 	border-left: none;
 	border-bottom: none;
-	padding: 5px 1em;
+	padding: 8px 1em;
 	background: #ff9800;
 }
 
@@ -259,8 +260,18 @@ footer {
 }
 
 #copyright {
+	color: #777f84;
 	font-size: .8em;
 	margin-top: 10px;
+}
+
+#copyright a, #copyright a:active, #copyright a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#copyright a:hover {
+	color: #bdd4de;
 }
 
 /****************************/
