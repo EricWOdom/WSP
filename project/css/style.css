@@ -272,17 +272,19 @@ img.100 {
 
 .moreInfo {
 	background: #ff9800;
-	color: #fff;
+	color: #fff !important;
 	text-shadow: 0 1px 0 #000;
 	box-shadow: 0 1px 0 #000;
 }
 
 .moreInfo:hover {
 	background: #fda41e;
+    color: #fff !important;
 }
 
 .moreInfo:active {
 	background: #ff9800;
+    color: #fff !important;
 	text-shadow: none;
 	box-shadow: 0 -1px 0 #000;
 }
