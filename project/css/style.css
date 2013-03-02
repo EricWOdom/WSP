@@ -356,7 +356,7 @@ img.100 {
 }  
 
 #contactForm .required {
-    background-image: url(/images/global/required-form-element.png);
+    background-image: url(/images/required-form-element.png);
     background-position: right top;
     background-repeat: no-repeat;
 }  
