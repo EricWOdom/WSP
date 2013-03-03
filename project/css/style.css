@@ -201,6 +201,12 @@ nav {
 	margin-right: 0;
 }
 
+.homeCTA1,
+.homeCTA2,
+.homeCTA3 {
+    display: inline-block;
+}
+
 .homeCTA2 {
 	margin: 0 2.75%;
 }
