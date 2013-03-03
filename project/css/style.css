@@ -614,12 +614,15 @@ footer {
         display: none;
     }
 
-    #bbbAccreditation {
+    #bbbAccreditation,
+    #acceptedPaymentIMGs {
         display: none;
     }
 
-    #acceptedPaymentIMGs {
-        display: none;
+    #acceptedPaymentInfo,
+    #copyright {
+        width: 98%;
+        margin: 0 auto;
     }
 }
 
