@@ -625,6 +625,10 @@ footer {
         width: 98%;
         margin: 0 auto;
     }
+
+    #copyright {
+        margin-top: 10px;
+    }
 }
 
 /****************************/
