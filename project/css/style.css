@@ -490,7 +490,7 @@ footer {
 
 #footerContainer {
 	max-width: 980px;
-	height: 70px;
+	height: auto;
 	margin: 0 auto;
 	color: #3f5765;
 	padding: 20px 1%;
@@ -546,7 +546,7 @@ footer {
 @media screen and (max-width: 320px) {
 
     #logo {
-        padding: 10px 1%;
+        padding: 15px 1%;
         width: 98%;
         margin: 0 auto;
     }
@@ -557,7 +557,6 @@ footer {
 
     #contentContainer {
         padding: 2%;
-        min-height: 250px;
     }
 
     #featuredImage {
@@ -612,6 +611,14 @@ footer {
     }
 
     #furnitureBrands {
+        display: none;
+    }
+
+    #bbbAccreditation {
+        display: none;
+    }
+
+    #acceptedPaymentIMGs {
         display: none;
     }
 }
