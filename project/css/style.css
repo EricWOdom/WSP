@@ -541,11 +541,25 @@ footer {
 
 @media screen and (max-width: 320px) {
 
-   .homeCTA2 {
-        margin: 0;
+    #logo {
+        width: 98%;
+    }
+
+    #contentContainer {
+        padding: 1%;
+    }
+
+    .homeCTA1,
+    .homeCTA2 {
+        width: 46%;
+        margin: 10px 1%;
     }
 
     .homeCTA3 {
+        display: none;
+    }
+
+    #furnitureBrands {
         display: none;
     }
 }
