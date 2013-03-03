@@ -436,3 +436,16 @@ footer {
     width: 100%;
     margin: 20px 0;
 }
+
+/********** User Survey Styles **********/
+
+div.ss-form-container {
+    padding: 0;
+    color: #4d4d4d;
+    font: 400 1em/1.5em 'Open Sans', Arial, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+.ss-form-title {
+    display: none;
+}
