@@ -536,19 +536,26 @@ footer {
 }
 
 /****************************/
+/* 
+/****************************/
+
+@media (max-width: 22em) {
+   .homeCTA2 {
+        margin: 0;
+    }
+
+    .homeCTA3 {
+        display: none;
+    }
+}
+
+/****************************/
 /* Nexus 7                  */
 /****************************/
 
 @media screen and (device-width: 600px) and (device-height: 905px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
 
-.homeCTA2 {
-    margin: 0;
-}
-
-.homeCTA3 {
-    display: none;
-}
-
+    
 }
 
 /****************************/
