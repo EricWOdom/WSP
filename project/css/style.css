@@ -475,6 +475,7 @@ footer {
 	width: 100%;
 	border-top: 2px solid #fff;
 	box-shadow: 0 -1px 0 #bdd4de;
+    clear: both;
 }
 
 #footerContainer {
