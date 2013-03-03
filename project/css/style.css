@@ -521,6 +521,14 @@ footer {
 	color: #bdd4de;
 }
 
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
 /****************************/
 /* Nexus 7                  */
 /****************************/
