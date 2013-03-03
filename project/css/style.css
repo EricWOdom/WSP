@@ -545,6 +545,10 @@ footer {
 
 @media screen and (max-width: 320px) {
 
+    header {
+        height: 20px;
+    }
+
     #logo {
         width: 98%;
     }
@@ -560,7 +564,7 @@ footer {
 
     #ctaContainer {
         width: 100%;
-        margin: 10px auto;
+        margin: 5px auto;
     }
 
     .homeCTA1,
