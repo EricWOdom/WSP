@@ -536,10 +536,11 @@ footer {
 }
 
 /****************************/
-/* 
+/* Galaxy SII
 /****************************/
 
-@media (max-width: 22em) {
+@media screen and (max-width: 320px) {
+
    .homeCTA2 {
         margin: 0;
     }
