@@ -526,6 +526,7 @@ footer {
     display: block;
     height: 0;
     clear: both;
+    visibility: hidden;
 }
 
 /****************************/
