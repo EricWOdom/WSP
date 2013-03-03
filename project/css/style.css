@@ -561,7 +561,7 @@ footer {
 
     .homeCTA1,
     .homeCTA2 {
-        width: 47%;
+        width: 47.5%;
         margin: 10px 1%;
     }
 
@@ -579,7 +579,7 @@ footer {
         display: block;
         width: 100%%;
         margin-bottom: 15px;
-        font: 400 2em 'Verb Bold', 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+        font: 400 1.35em 'Verb Bold', 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
         color: #fff !important;
         text-align: center;
         text-transform: uppercase;
