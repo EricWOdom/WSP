@@ -550,8 +550,12 @@ footer {
 
 @media screen and (max-width: 320px) {
 
+    h1 {
+        margin-bottom: 0;
+    }
+
     #logo {
-        padding: 15px 1%;
+        padding: 15px 0 15px 2%;
         width: 98%;
         margin: 0 auto;
     }
@@ -624,7 +628,7 @@ footer {
     }
 
     #product, #productRight {
-        width: 94%;
+        width: 93%;
         margin: 10px auto;
         float: none;
         border: 1px solid #ccc;
@@ -638,6 +642,10 @@ footer {
 
     #productRight:last-child {
         margin-bottom: 10px;
+    }
+
+    #product h2, #productRight h2 {
+        margin-bottom: 5px;
     }
 
     #productIMG {
@@ -658,9 +666,10 @@ footer {
     .btn {
         display: block;
         font-size: 1.5em;
-        margin: 10px auto;
+        margin: 0 auto;
         padding: 10px 20px;
         text-decoration: none;
+        text-align: center;
     }
 
     #bbbAccreditation,
