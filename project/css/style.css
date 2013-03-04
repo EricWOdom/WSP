@@ -698,6 +698,15 @@ footer {
         padding: .75em;
     }
 
+    #contactForm #submit-button, #contactForm #sign-up-button {
+        float: none;
+        width: 100%;
+    }
+
+    .note {
+        width: 80%;
+    }
+
     #bbbAccreditation,
     #acceptedPaymentIMGs {
         display: none;
