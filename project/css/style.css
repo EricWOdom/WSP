@@ -677,6 +677,27 @@ footer {
         text-align: center;
     }
 
+    #contactFormContainer {
+        width: 98%;
+        margin: 0 auto;
+        overflow: auto;
+    }
+
+    #contactForm label {
+        display: block;
+        text-align: left;
+        vertical-align: top;
+        padding: 0;
+    }
+
+    #contactForm input, #contactForm select, #contactForm textarea {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: .75em;
+    }
+
     #bbbAccreditation,
     #acceptedPaymentIMGs {
         display: none;
