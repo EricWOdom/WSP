@@ -624,9 +624,11 @@ footer {
     }
 
     #product, #productRight {
-        width: 98%;
+        width: 94%;
         margin: 0 auto;
         float: none;
+        border: 1px solid #ccc;
+        padding: 3%;
     }
 
     #productIMG {
@@ -635,6 +637,10 @@ footer {
         margin-bottom: 10px;
     }
 
+    #productIMG img {
+        width: 100%;
+    }
+    
     #productDescription {
         width: 100%;
         float: none;
