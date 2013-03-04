@@ -172,6 +172,10 @@ nav {
 	border-right: 1px solid #bdd4de;
 }
 
+#featuredImage img {
+    width: 100%;
+}
+
 #contentContainer p {
 	margin-bottom: 20px;
 }
@@ -180,8 +184,8 @@ nav {
 	margin-bottom: 0;
 }
 
-#callToActions {
-	margin: 15px 0;
+#ctaContainer {
+    margin: 20px auto;
 }
 
 .homeCTA1,
