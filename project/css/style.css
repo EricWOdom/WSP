@@ -633,11 +633,11 @@ footer {
     }
 
     #product:first-child {
-        margin-top: 0;
+        margin-top: 5px;
     }
 
     #productRight:last-child {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 
     #productIMG {
